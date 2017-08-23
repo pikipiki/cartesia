@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cartesia Education</title>
+  </head>
+  <body class="bg-image">       
+    <div class="container">
+
+      <nav class="navbar navbar-default">
+        <div class="navbar-header height-100-percent ">
+          <a href="" class="navbar-brand height-100-percent">
+            <img src="http://bit.ly/2xryTTG" class="img-responsive height-100-percent">
+          </a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span onclick="changeColorRed()" class="text-white"><b>Free</b></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span onclick="changeColorBlue()" class="text-white"><b>Professional</b></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span onclick="changeColorOrange()" class="text-white"><b>Enterprise</b></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="col-md-11 text-center">
+
+        <div class="text-center text-white mb-50 ml-250">
+          <p class="fz-6-5">Get started with Wrike</p>
+          <h2 class="no-background fz-2-5">
+            <span>Plan available for every team</span>
+          </h2>
+        </div>
+
+        <div class="col-md-3">
+          <p class="text-light-green fz-2-5">Subscription</p>
+          <p class="mb-50 text-white"><b>Select the plan for you</b></p>
+          <img src="img/arrow_lg.png" class="img-responsive in-line-display">
+        </div>
+
+        <div class="col-md-3 pl-5 pr-5">
+          <div class="bg-white border-top-grey" id="free">
+            <p class="pt-30 text-grey fz-2-5">Free</p>
+            <p class="pl-20 pr-20 pb-10"><b>For small teams who need basic task management</b></p>
+            <div class="col-md-6">
+              <p class="fz-1-8">5 users</p>
+            </div>
+            <div class="col-md-6 pb-60">
+              <p class="text-light-green fz-1-8 color-red">Free</p>
+            </div>
+            <button type="button" class="btn btn-success dark-green round mb-30 pb-10 pt-10">
+              Sign up now <i class="glyphicon glyphicon-chevron-right chevron-color round ml-10"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 pl-5 pr-5">
+          <div class="bg-white border-top-light-green" id="professional">
+            <p class="pt-30 text-light-green fz-2-5">Professional</p>
+            <p class="pl-20 pr-20 pb-10"><b>For teams who need project planning and collaboration</b></p>
+            <div class="col-md-6 fz-1-8">
+              <div class="row">&nbsp</div>
+              <div class="row">5 users</div>
+              <div class="row">10 users</div>
+            </div>
+            <div class="col-md-6 pb-30">
+              <div class="row mb-5">Paid annually</div>
+              <div class="row fz-1-8">$49/mo</div>
+              <div class="row fz-1-8">$99/mo</div>
+            </div>
+            <button type="button" class="btn btn-success light-green round mb-30 pb-10 pt-10">
+              Start free trial <i class="glyphicon glyphicon-chevron-right chevron-color round ml-10"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 pl-5 pr-5">
+          <div class="bg-white border-top-blue" id="enterprise">
+            <p class="pt-30 text-blue fz-2-5">Enterprise</p>
+            <p class="pb-10"><b>For small teams who need customization reporting and avanced security</b></p>
+            <p class="pb-60 fz-1-8">From 5 to <b>thousands</b> of users</p>
+            <button type="button" class="btn btn-success blue round mb-30 pb-10 pt-10">
+              Start free trial<i class="glyphicon glyphicon-chevron-right chevron-color round ml-10"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$light-green:#86cf22;
+$blue:#06b4d2;
+$grey: #e5e5e5;
+
+body{
+  font-family: 'Open Sans';
+}
+
+.bg-image{
+  background-image: url("../img/bg_progressive.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-default{
+  height: 100px;
+  background-color: inherit;
+  border: none;
+}
+
+h2.no-background {
+    position: relative;
+    overflow: hidden;
+    
+    span {
+        display: inline-block;
+        vertical-align: baseline;
+        position: relative;
+        padding: 0 20px;
+
+        &:before, &:after {
+            content: '';
+            display: block;
+            width: 100px;
+            position: absolute;
+            top: 0.73em;
+            border-top: 1px solid white;
+        }
+
+        &:before { right: 100%; }
+        &:after { left: 100%; }
+    }
+}
+
+.bg-white{
+  background-color:white;
+}
+
+.round{
+  border-radius: 10px;
+  padding: 2px;
+
+}
+
+.btn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.in-line-display{
+  display: inline;
+}
+
+.border-top-blue{
+  border-top: 5px solid $blue;
+}
+
+.border-top-grey{
+  border-top: 5px solid $grey;
+}
+
+.border-top-light-green{
+  border-top: 5px solid $light-green;
+}
+
+.text-white{
+  color:white;
+}
+
+.text-light-green{
+  color: $light-green;
+}
+
+.text-blue{
+  color: $blue;
+}
+
+.text-grey{
+  color: #666659;
+}
+
+.light-green{
+  background-color:$light-green;
+}
+
+.dark-green{
+  background-color:#66b266;
+}
+
+.chevron-color{
+  background-color:#00661a;  
+}
+
+.grey{
+  background-color:$grey;
+}
+
+.blue{
+  background-color:$blue;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover {
+  background-color:black;
+  opacity:0.5;
+  border-radius: 200px;
+}
